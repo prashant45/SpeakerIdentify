@@ -1,1 +1,1 @@
-C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\App326.csproj;arm
+D:\microsftAzure\SpeakerIdentify\App326.csproj;arm

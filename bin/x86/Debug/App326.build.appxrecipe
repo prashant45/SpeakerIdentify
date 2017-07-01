@@ -388,6 +388,9 @@
     <AppxPackagedFile Include="C:\Users\Prashant\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\redbox.jpg">
+      <PackagePath>Assets\redbox.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

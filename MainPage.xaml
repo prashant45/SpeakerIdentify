@@ -6,73 +6,74 @@
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   mc:Ignorable="d">
-  <Grid
-    Background="Black">
-    <VisualStateManager.VisualStateGroups>
-      <VisualStateGroup
+    <Grid
+    Background="White">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup
         x:Name="VisualStateGroup">
-        <VisualState
+                <VisualState
           x:Name="Default" />
-        <VisualState
+                <VisualState
           x:Name="Recording">
-          <VisualState.Setters>
-            <Setter
+                    <VisualState.Setters>
+                        <Setter
               Target="progressBar.(UIElement.Visibility)"
               Value="Visible" />
-          </VisualState.Setters>
-        </VisualState>
-        <VisualState
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState
           x:Name="Submitting">
-          <VisualState.Setters>
-            <Setter
+                    <VisualState.Setters>
+                        <Setter
               Target="progressBar.(UIElement.Visibility)"
               Value="Visible" />
-            <Setter
+                        <Setter
               Target="progressBar.(ProgressBar.IsIndeterminate)"
               Value="True" />
-          </VisualState.Setters>
-        </VisualState>
-      </VisualStateGroup>
-    </VisualStateManager.VisualStateGroups>
-    <Grid.RowDefinitions>
-      <RowDefinition />
-      <RowDefinition />
-      <RowDefinition />
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition />
-      <ColumnDefinition
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition
         Width="3*" />
-      <ColumnDefinition />
-    </Grid.ColumnDefinitions>
-    <Grid
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid
       Grid.Row="1"
       Grid.Column="1">
-      <Grid.RowDefinitions>
-        <RowDefinition />
-        <RowDefinition
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition
           Height="Auto" />
-      </Grid.RowDefinitions>
-      <TextBlock
+            </Grid.RowDefinitions>
+            <TextBlock
         FontFamily="Segoe UI Light"
-        Foreground="SkyBlue"
+        Foreground="Black"
         FontSize="48"
         Text="{Binding DisplayText}" 
         TextAlignment="Center"
         HorizontalAlignment="Center"
         TextWrapping="Wrap"
         VerticalAlignment="Center"/>
-      <ProgressBar
+            <ProgressBar
         x:Name="progressBar"
         Visibility="Collapsed"
         Value="{Binding ProgressValue}"
         Grid.Row="1"
         Minimum="{Binding ProgressMinimum}"
         Maximum="{Binding ProgressMaximum}" />
-    </Grid>
-    <MediaElement
+        </Grid>
+        <MediaElement
       Width="0"
       Height="0"
       x:Name="mediaElement" />
-  </Grid>
+        
+    </Grid>
 </Page>

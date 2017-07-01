@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-01T10:23:21.816</Modified>
+      <Modified>2017-07-01T18:46:04.239</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.exe">
       <PackagePath>entrypoint\App326.exe</PackagePath>
-      <Modified>2017-07-01T10:23:21.448</Modified>
+      <Modified>2017-07-01T18:44:54.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prashant\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -519,6 +519,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\redbox.jpg">
+      <PackagePath>Assets\redbox.jpg</PackagePath>
+      <Modified>2017-07-01T18:45:54.573</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-02-18T14:57:40.000</Modified>
@@ -559,7 +563,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.xr.xml">
       <PackagePath>App326.xr.xml</PackagePath>
-      <Modified>2017-06-30T20:39:34.257</Modified>
+      <Modified>2017-07-01T16:47:04.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -568,11 +572,11 @@
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-01T10:21:40.579</Modified>
+      <Modified>2017-07-01T18:44:54.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\App326.exe">
       <PackagePath>App326.exe</PackagePath>
-      <Modified>2017-07-01T10:23:21.811</Modified>
+      <Modified>2017-07-01T18:46:04.235</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
