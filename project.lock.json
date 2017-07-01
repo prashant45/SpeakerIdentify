@@ -26212,19 +26212,19 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Prashant\\.nuget\\packages\\": {}
+    "C:\\Users\\Sakas\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Prashant\\Documents\\Visual Studio 2017\\Projects\\OxfordSpeakerRecognitionUWP\\App326.csproj",
+      "projectUniqueName": "C:\\Users\\Sakas\\Source\\Repos\\SpeakerIdentify\\App326.csproj",
       "projectName": "App326",
-      "projectPath": "C:\\Users\\Prashant\\Documents\\Visual Studio 2017\\Projects\\OxfordSpeakerRecognitionUWP\\App326.csproj",
-      "projectJsonPath": "C:\\Users\\Prashant\\Documents\\Visual Studio 2017\\Projects\\OxfordSpeakerRecognitionUWP\\project.json",
+      "projectPath": "C:\\Users\\Sakas\\Source\\Repos\\SpeakerIdentify\\App326.csproj",
+      "projectJsonPath": "C:\\Users\\Sakas\\Source\\Repos\\SpeakerIdentify\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
-      "Newtonsoft.Json": "[10.0.3, )"
+      "Newtonsoft.Json": "10.0.3"
     },
     "frameworks": {
       "uap10.0": {}
