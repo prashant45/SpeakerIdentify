@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>86a9d543-fe9b-4468-afdf-471f606d317b</PackageIdentityName>
     <PackageIdentityPublisher>CN=mtaulty</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>1F3D8799E36F0E305D432DBC03024BDF202A63E75F19D7CE6754C4381DA6EF63</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>86a9d543-fe9b-4468-afdf-471f606d317b_1.0.0.0_x86__54fjpjf3c8m40</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>86a9d543-fe9b-4468-afdf-471f606d317b_54fjpjf3c8m40!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-30T21:40:42.043</Modified>
+      <Modified>2017-07-01T10:23:21.816</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\bin\x86\Debug\App326.exe">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.exe">
       <PackagePath>entrypoint\App326.exe</PackagePath>
-      <Modified>2017-06-30T21:40:41.405</Modified>
+      <Modified>2017-07-01T10:23:21.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prashant\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -519,45 +519,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-02-18T14:57:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\bin\x86\Debug\App326.xr.xml">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.xr.xml">
       <PackagePath>App326.xr.xml</PackagePath>
       <Modified>2017-06-30T20:39:34.257</Modified>
     </AppxPackagedFile>
@@ -565,14 +565,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-06-30T19:33:23.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-30T20:39:47.160</Modified>
+      <Modified>2017-07-01T10:21:40.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Prashant\Documents\Visual Studio 2017\Projects\OxfordSpeakerRecognitionUWP\bin\x86\Debug\Core\App326.exe">
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\App326.exe">
       <PackagePath>App326.exe</PackagePath>
-      <Modified>2017-06-30T21:40:42.029</Modified>
+      <Modified>2017-07-01T10:23:21.811</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

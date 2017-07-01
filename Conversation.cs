@@ -6,6 +6,7 @@
   using Windows.Media.SpeechSynthesis;
   using Windows.UI.Xaml;
   using Windows.UI.Xaml.Controls;
+
   static class ConversationResultExtensions
   {
     public static async Task<ConversationResult> SayAsync(
@@ -33,11 +34,13 @@
       return (await result.Conversation.WaitForPersonNameAsync());
     }
   }
+
   class ConversationResult
   {
     public Conversation Conversation { get; set; }
     public string Text { get; set; }
   }
+
   class Conversation
   {
     public Conversation(MediaElement mediaElement)
@@ -119,4 +122,5 @@
     SpeechSynthesizer synthesizer;
     MediaElement mediaElement;
   }
+
 }
