@@ -10,7 +10,11 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>86a9d543-fe9b-4468-afdf-471f606d317b</PackageIdentityName>
     <PackageIdentityPublisher>CN=mtaulty</PackageIdentityPublisher>
+<<<<<<< HEAD
     <IntermediateOutputPath>C:\Users\Sakas\Source\Repos\SpeakerIdentify\obj\x86\Debug\</IntermediateOutputPath>
+=======
+    <IntermediateOutputPath>D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +22,13 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+<<<<<<< HEAD
     <LayoutDir>C:\Users\Sakas\Source\Repos\SpeakerIdentify\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>9071D5C695D693BD8ED3C4FD0CBC593DFD99BC9894A3F9A5E7E339CB46FF4FB7</RegisteredManifestChecksum>
+=======
+    <LayoutDir>D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>1F3D8799E36F0E305D432DBC03024BDF202A63E75F19D7CE6754C4381DA6EF63</RegisteredManifestChecksum>
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
     <RegisteredPackageMoniker>86a9d543-fe9b-4468-afdf-471f606d317b_1.0.0.0_x86__54fjpjf3c8m40</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>86a9d543-fe9b-4468-afdf-471f606d317b_54fjpjf3c8m40!App</RegisteredUserModeAppID>
     <RegisteredPackageID>86a9d543-fe9b-4468-afdf-471f606d317b</RegisteredPackageID>
@@ -28,6 +37,7 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <AppXManifest Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -38,6 +48,18 @@
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\bin\x86\Debug\App326.exe">
       <PackagePath>entrypoint\App326.exe</PackagePath>
       <Modified>2017-07-01T09:05:48.328</Modified>
+=======
+    <AppXManifest Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-01T10:23:21.816</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.exe">
+      <PackagePath>entrypoint\App326.exe</PackagePath>
+      <Modified>2017-07-01T10:23:21.448</Modified>
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sakas\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -519,45 +541,81 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Properties\Default.rd.xml">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Properties\Default.rd.xml">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-07-01T08:57:44.562</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\LockScreenLogo.scale-200.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\LockScreenLogo.scale-200.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-07-01T08:57:44.552</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\SplashScreen.scale-200.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\SplashScreen.scale-200.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-07-01T08:57:44.553</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\Square150x150Logo.scale-200.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Square150x150Logo.scale-200.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-07-01T08:57:44.553</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\Square44x44Logo.scale-200.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Square44x44Logo.scale-200.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-07-01T08:57:44.554</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-07-01T08:57:44.555</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\StoreLogo.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\StoreLogo.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-07-01T08:57:44.555</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\Assets\Wide310x150Logo.scale-200.png">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Wide310x150Logo.scale-200.png">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-07-01T08:57:44.556</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\bin\x86\Debug\App326.xr.xml">
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.xr.xml">
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       <PackagePath>App326.xr.xml</PackagePath>
       <Modified>2017-07-01T08:57:45.357</Modified>
     </AppxPackagedFile>
@@ -565,6 +623,7 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-06-30T19:23:16.713</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -573,6 +632,16 @@
     <AppxPackagedFile Include="C:\Users\Sakas\Source\Repos\SpeakerIdentify\bin\x86\Debug\Core\App326.exe">
       <PackagePath>App326.exe</PackagePath>
       <Modified>2017-07-01T09:05:49.981</Modified>
+=======
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-07-01T10:21:40.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\App326.exe">
+      <PackagePath>App326.exe</PackagePath>
+      <Modified>2017-07-01T10:23:21.811</Modified>
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
