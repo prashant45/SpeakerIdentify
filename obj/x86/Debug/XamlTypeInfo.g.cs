@@ -132,19 +132,21 @@ namespace App326.App326_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
-            _typeNameTable[0] = "App326.MainPage";
+            _typeNameTable = new string[6];
+            _typeNameTable[0] = "App326.BlankPage1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "String";
-            _typeNameTable[4] = "Single";
+            _typeNameTable[3] = "App326.MainPage";
+            _typeNameTable[4] = "String";
+            _typeNameTable[5] = "Single";
 
-            _typeTable = new global::System.Type[5];
-            _typeTable[0] = typeof(global::App326.MainPage);
+            _typeTable = new global::System.Type[6];
+            _typeTable[0] = typeof(global::App326.BlankPage1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::System.String);
-            _typeTable[4] = typeof(global::System.Single);
+            _typeTable[3] = typeof(global::App326.MainPage);
+            _typeTable[4] = typeof(global::System.String);
+            _typeTable[5] = typeof(global::System.Single);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,7 +181,8 @@ namespace App326.App326_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::App326.MainPage(); }
+        private object Activate_0_BlankPage1() { return new global::App326.BlankPage1(); }
+        private object Activate_3_MainPage() { return new global::App326.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -191,13 +194,9 @@ namespace App326.App326_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  App326.MainPage
+            case 0:   //  App326.BlankPage1
                 userType = new global::App326.App326_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
-                userType.AddMemberName("DisplayText");
-                userType.AddMemberName("ProgressValue");
-                userType.AddMemberName("ProgressMinimum");
-                userType.AddMemberName("ProgressMaximum");
+                userType.Activator = Activate_0_BlankPage1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -210,11 +209,22 @@ namespace App326.App326_XamlTypeInfo
                 xamlType = new global::App326.App326_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  String
+            case 3:   //  App326.MainPage
+                userType = new global::App326.App326_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MainPage;
+                userType.AddMemberName("DisplayText");
+                userType.AddMemberName("ProgressValue");
+                userType.AddMemberName("ProgressMinimum");
+                userType.AddMemberName("ProgressMaximum");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  String
                 xamlType = new global::App326.App326_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Single
+            case 5:   //  Single
                 xamlType = new global::App326.App326_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

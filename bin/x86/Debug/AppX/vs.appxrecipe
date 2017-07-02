@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-01T18:46:04.239</Modified>
+      <Modified>2017-07-02T00:54:50.897</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.exe">
       <PackagePath>entrypoint\App326.exe</PackagePath>
-      <Modified>2017-07-01T18:44:54.175</Modified>
+      <Modified>2017-07-02T00:54:50.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prashant\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -523,6 +523,18 @@
       <PackagePath>Assets\redbox.jpg</PackagePath>
       <Modified>2017-07-01T18:45:54.573</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\samplesound.wav">
+      <PackagePath>Assets\samplesound.wav</PackagePath>
+      <Modified>2017-07-02T00:02:34.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Video.mp4">
+      <PackagePath>Assets\Video.mp4</PackagePath>
+      <Modified>2017-07-02T00:12:16.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\VideoPrashant.mp4">
+      <PackagePath>Assets\VideoPrashant.mp4</PackagePath>
+      <Modified>2017-07-02T00:31:59.639</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-02-18T14:57:40.000</Modified>
@@ -563,7 +575,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.xr.xml">
       <PackagePath>App326.xr.xml</PackagePath>
-      <Modified>2017-07-01T16:47:04.459</Modified>
+      <Modified>2017-07-02T00:51:57.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -572,11 +584,11 @@
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-01T18:44:54.714</Modified>
+      <Modified>2017-07-02T00:54:50.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\Core\App326.exe">
       <PackagePath>App326.exe</PackagePath>
-      <Modified>2017-07-01T18:46:04.235</Modified>
+      <Modified>2017-07-02T00:54:50.892</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

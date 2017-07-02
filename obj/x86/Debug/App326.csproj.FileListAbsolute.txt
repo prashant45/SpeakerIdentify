@@ -442,3 +442,9 @@ D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.exe
 D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\App326.pdb
 D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\App326.exe
 D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\App326.pdb
+D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\App326.csprojResolveAssemblyReference.cache
+D:\microsftAzure\SpeakerIdentify\bin\x86\Debug\BlankPage1.xbf
+D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\BlankPage1.g.i.cs
+D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\BlankPage1.g.cs
+D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\BlankPage1.xaml
+D:\microsftAzure\SpeakerIdentify\obj\x86\Debug\BlankPage1.xbf

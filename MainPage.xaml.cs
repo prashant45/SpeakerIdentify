@@ -18,8 +18,6 @@
     using Windows.UI.Notifications;
     using System.Globalization;
 
-
-
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
         enum VisualStates
@@ -108,6 +106,34 @@
             }
         }
 
+        public void ProfileNotification(string name)
+        {
+            var xmlString =
+                $@"<toast launch='args' scenario='reminder'>
+                <visual>
+                    <binding template='ToastGeneric'>
+                        <image placement = 'hero' src = 'Assets/redbox.jpg' />
+                        <text>Reminder</text>
+                        <text>You have to take 1 pill from the Red box</text>
+                    </binding>
+                </visual>
+                <actions>
+                
+                <action arguments = 'snooze'
+                content = 'snooze' />
+
+                <action arguments = 'dismiss'
+                content = 'dismiss' />
+                </actions>
+                </toast>";
+
+            var doc = new Windows.Data.Xml.Dom.XmlDocument();
+            doc.LoadXml(xmlString);
+
+            var toast = new ToastNotification(doc);
+            ToastNotificationManager.CreateToastNotifier().Show(toast);
+        }
+
         public void Reminder ()
         {
             var xmlString =
@@ -153,12 +179,10 @@
 
             string response = string.Empty;
 
-            await this.DisplayAndSay("Say Hello Peter")
+            await this.DisplayAndSay("Say Hello to begin")
             .WaitForCommandsAsync("hello");
             
-            Reminder();
-
-             await this.DoCheckEnrollmentsAsync();
+            await this.DoCheckEnrollmentsAsync();
         }
 
         async Task DoCheckEnrollmentsAsync()
@@ -180,8 +204,7 @@
             .SayAsync($"I found {count} fully enrolled records")
             .PauseAsync(TimeSpan.FromSeconds(1))
             .SayAsync(count > 0 ? "would you like to check or enroll?" : "let's enroll you");
-            
-
+       
             if (count == 0)
             {
                 await this.DoEnrollAsync();
@@ -191,6 +214,7 @@
                 this.DisplayText = "Checking for the audio";
 
                 var option = await this.conversation.WaitForCommandsAsync("check", "enroll");
+                await Task.Delay(TimeSpan.FromSeconds(2));
 
                 switch (option.Text)
                 {
@@ -204,13 +228,13 @@
                         break;
                 }
             }
-
         }
 
         async Task DoCheckAsync()
         {
+            string resultingProfile = string.Empty;
             await this.conversation.SayAsync(
-            "Introduce yourself in 2-3 sentences");
+            "Please introduce yourself...");
 
             var profilesToMatchAgainst =
                 this.currentProfiles
@@ -227,40 +251,49 @@
             {
                 if (response.ProcessingResult.IdentifiedProfileId == Guid.Empty)
                 {
-                    await this.DisplayAndSay("the call worked but we did not identify you");
+                    await this.DisplayAndSay("The call worked but I did not identify you");
                 }
                 else
                 {
                     string currentID = response.ProcessingResult.IdentifiedProfileId.ToString();
+                    Reminder();
 
                     if (currentID == Nik)
                     {
-                        await this.DisplayAndSay("Peter, this is your friend Nikos");
+                        resultingProfile = "Nik";
                     }
+
                     else if (currentID == Rahul)
                     {
-                        await this.DisplayAndSay("Peter, this is your friend Rahul");
+                        resultingProfile = "Rahul";
                     }
                     else if (currentID == Prashant)
                     {
-                        await this.DisplayAndSay("Peter, this is your friend Prashant");
+                        resultingProfile = "Prashant";
+                    }
+                    else if (currentID == Benedikt)
+                    {
+                        resultingProfile = "Benedikt";
                     }
                     else if (currentID == NewPerson)
                     {
-                        await this.DisplayAndSay("Peter, this is your friend New Person");
+                        resultingProfile = "New person";
                     }
 
+                    await this.DisplayAndSay("This is your friend " + resultingProfile);
+                    Frame.Navigate(typeof(BlankPage1));
+
                     await this.DisplayAndSay(
-                     $"we identified you with {response.ProcessingResult.Confidence} confidence")
-                     .PauseAsync(TimeSpan.FromSeconds(1))
-                     .SayAsync("I've put the id on your clipboard");
+                     $"I have identified you with {response.ProcessingResult.Confidence} confidence");
+
+                    await this.DisplayAndSay("Thank you. Have a great time with your friend " + resultingProfile);
                 }
             }
             else
             {
                 await this.DisplayAndSay("Sorry, that didn't work");
+                await this.DoCheckAsync();
             }
-            await this.DoCheckEnrollmentsAsync();
         }
 
         async Task<GetOperationStatusResponse> SubmitSpeechForProfileAsync(
@@ -274,26 +307,18 @@
 
             this.SwitchState(VisualStates.Submitting);
 
-            // this.DisplayText = "submitting";
-
             using (var stream = await this.recordingFile.OpenReadAsync())
             {
-                var statusEndpointUri = await this.restClient.PostSpeechStreamToProcessingEndpointAsync(
-                    processingEndpointUri, stream);
+                var statusEndpointUri = await this.restClient.PostSpeechStreamToProcessingEndpointAsync(processingEndpointUri, stream);
 
-                //this.DisplayText = "checking status";
-
-                //await this.conversation.SayAsync("Now going back to see what the status is");
+                this.DisplayText = "Checking to find a match from the registered profiles";
 
                 response = await this.restClient.GetStatusAsync(statusEndpointUri);
 
                 while ((response.Status == OperationStatus.NotStarted) ||
                     (response.Status == OperationStatus.Running))
                 {
-                    //await this.DisplayAndSay("still processing, checking again in 5 seconds");
-
                     await Task.Delay(TimeSpan.FromSeconds(5));
-
                     response = await this.restClient.GetStatusAsync(statusEndpointUri);
                 }
             }
@@ -312,7 +337,7 @@
 
         async Task DoEnrollAsync()
         {
-            this.DisplayText = "making online profile";
+            this.DisplayText = "Making online profile";
 
             await this.conversation
             .SayAsync("I'm going to create an online profile for you");
@@ -406,7 +431,7 @@
             }
             await recorder.StopRecordAsync();
 
-            await this.DisplayAndSay("Ok, we've got your voice locally");
+            await this.DisplayAndSay("Ok, we've have registered your voice");
 
             this.SwitchState(VisualStates.Default);
 
@@ -438,9 +463,7 @@
         string Nik = "21647f63-be4a-46a9-b646-e35285a07686";
         string Rahul = "79036a15-a489-46c4-8097-b74c28219273";
         string Prashant = "d308e99e-f9e4-4066-b499-76f86f913af0";
+        string Benedikt = "949335f2-7e38-4174-8951-f6d1f23556b3";
         string NewPerson = "";
-
-       
     }
-    
-  }
+}

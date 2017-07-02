@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\microsftAzure\SpeakerIdentify\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-01T18:48:03.367</Modified>
+      <Modified>2017-07-01T19:02:31.054</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\ARM\Debug\App326.exe">
       <PackagePath>entrypoint\App326.exe</PackagePath>
-      <Modified>2017-07-01T18:47:59.395</Modified>
+      <Modified>2017-07-01T19:02:29.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Prashant\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -568,11 +568,11 @@
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-07-01T18:48:02.732</Modified>
+      <Modified>2017-07-01T19:02:30.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\bin\ARM\Debug\Core\App326.exe">
       <PackagePath>App326.exe</PackagePath>
-      <Modified>2017-07-01T18:48:03.361</Modified>
+      <Modified>2017-07-01T19:02:31.040</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

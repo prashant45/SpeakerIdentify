@@ -391,6 +391,15 @@
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\redbox.jpg">
       <PackagePath>Assets\redbox.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\samplesound.wav">
+      <PackagePath>Assets\samplesound.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\Video.mp4">
+      <PackagePath>Assets\Video.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Assets\VideoPrashant.mp4">
+      <PackagePath>Assets\VideoPrashant.mp4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\microsftAzure\SpeakerIdentify\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
