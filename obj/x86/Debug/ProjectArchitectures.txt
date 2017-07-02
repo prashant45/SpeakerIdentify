@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+C:\Users\Sakas\Source\Repos\SpeakerIdentify\App326.csproj;x86
+=======
 D:\microsftAzure\SpeakerIdentify\App326.csproj;x86
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751

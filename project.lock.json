@@ -26212,14 +26212,21 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Prashant\\.nuget\\packages\\": {}
+    "C:\\Users\\Sakas\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Sakas\\Source\\Repos\\SpeakerIdentify\\App326.csproj",
+      "projectName": "App326",
+      "projectPath": "C:\\Users\\Sakas\\Source\\Repos\\SpeakerIdentify\\App326.csproj",
+      "projectJsonPath": "C:\\Users\\Sakas\\Source\\Repos\\SpeakerIdentify\\project.json",
+=======
       "projectUniqueName": "D:\\microsftAzure\\SpeakerIdentify\\App326.csproj",
       "projectName": "App326",
       "projectPath": "D:\\microsftAzure\\SpeakerIdentify\\App326.csproj",
       "projectJsonPath": "D:\\microsftAzure\\SpeakerIdentify\\project.json",
+>>>>>>> 451ade6e8d82cdd7cb08f601c694cfef8dbf4751
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
